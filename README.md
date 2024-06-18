@@ -6,3 +6,6 @@ Recout (Recommendation Outfit) is an application designed to meet the outfit nee
 
 ## Our Model
 This model is a similarity-based recommendation system that uses Cosine Similarity to determine the products that are most similar to user preferences based on porduct gender and temperature in the user's province. The output of this model provides the top 5 most similar products based on product gender and temperature in the user's province, this model uses mathematical and statistical techniques commonly used in machine learning applications. This recommendation system is useful in memory-based collaborative filtering applications, where recommendations are given based on the similarity of user preferences with the dataset we use.
+
+## Dataset
+Our dataset can be viewed [here](https://www.kaggle.com/datasets/latifahhukma/fashion-campus/).
