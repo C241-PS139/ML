@@ -9,3 +9,17 @@ This model is a similarity-based recommendation system that uses Cosine Similari
 
 ## Dataset
 Our dataset can be viewed through [dataset](https://www.kaggle.com/datasets/latifahhukma/fashion-campus/) and [images](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data).
+
+## Recomendation Model Using Cosine Similarity
+
+## Requirements
+- pandas
+- numpy
+- urllib.request
+- requests
+- cv2
+- sklearn
+- matplotlib
+- joblib
+
+## Recomendation Step
