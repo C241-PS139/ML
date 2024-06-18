@@ -10,9 +10,10 @@ This model is a similarity-based recommendation system that uses Cosine Similari
 ## Dataset
 Our dataset can be viewed through [dataset](https://www.kaggle.com/datasets/latifahhukma/fashion-campus/) and [images](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data).
 
-## Recomendation Model Using Cosine Similarity
+## Recomendation Model
+Our recommendation model was trained with over 14,000+ different fashion data entries focusing on apparels, reaching an impressive precision of 1.00
 
-## Requirements
+### Requirements
 - pandas
 - numpy
 - urllib.request
@@ -22,4 +23,16 @@ Our dataset can be viewed through [dataset](https://www.kaggle.com/datasets/lati
 - matplotlib
 - joblib
 
-## Recomendation Step
+### Recomendation Steps
+1. Clone the git repository.
+```bash
+git clone https://github.com/C241-PS139/Recout-ML.git
+```
+2. Install the required libraries.
+```
+pip install pandas numpy urllib3 requests opencv-python scikit-learn matplotlib joblib
+```
+3. Navigate to the recommendation model directory and open the notebook.
+4. Run the cells in the notebook to train the model and evaluate its performance.
+5. Save the model into a pickle format on the provided cell.
+6. The model can now be used for inferences.
